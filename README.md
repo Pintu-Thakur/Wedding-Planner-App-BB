@@ -29,7 +29,7 @@ The project follows a standard Android application structure:
 
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/Lbp2563/WeddingPlannerApp.git
+   https://github.com/Lbp2563/Wedding--Planner-Mobile-App.git
 
 ## Acknowledgments
 
