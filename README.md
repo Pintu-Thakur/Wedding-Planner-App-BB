@@ -31,7 +31,7 @@ The project follows a standard Android application structure:
    ```bash
    git clone https://github.com/YourGitHubUsername/WeddingPlannerApp.git
 
-   ## Acknowledgments
+## Acknowledgments
 
 This project is adapted from the TensorFlow tutorials on transfer learning and fine-tuning.
 
