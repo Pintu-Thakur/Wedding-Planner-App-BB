@@ -37,5 +37,5 @@ git clone https://github.com/your-username/wedding-planner-app.git
 Open in Android Studio
 
 Sync Gradle & Run on Emulator/Device
-<img width="100%" height="auto" alt="Wedding Planner App" src="https://github.com/user-attachments/assets/9270ac34-6810-4cb7-bd14-9745b31f0543" />
+<img width="200" height="300" alt="Wedding Planner App" src="https://github.com/user-attachments/assets/9270ac34-6810-4cb7-bd14-9745b31f0543" />
 
