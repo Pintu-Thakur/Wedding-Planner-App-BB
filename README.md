@@ -1,45 +1,40 @@
-# Wedding Planner App
+💍 Wedding Planner App
 
-This repository contains the code for a **Wedding Planner App**, designed to assist couples and event planners in organizing and managing weddings seamlessly. The app provides features for scheduling, managing guest lists, assigning tasks, and tracking event details to ensure the wedding day goes off without a hitch.
+A modern Android application built with Kotlin to help couples plan their wedding effortlessly.
+It provides a clean, wedding-themed interface with checklists, budget calculator, venue listings, and guest management.
 
-## Overview
+✨ Features
 
-The Wedding Planner App is structured to help users manage all the aspects of wedding planning, from the initial stages to the final day, including task assignments, vendor management, and guest communication.
+📋 Wedding Checklist – Organize and track wedding tasks.
 
-### Key Features
-- **Task Management**: Create, assign, and monitor tasks for each aspect of the wedding, from catering to decorations.
-- **Guest List**: Manage the list of guests, send out invites, and track RSVPs.
-- **Budgeting**: Keep track of expenses and manage the wedding budget efficiently.
-- **Vendor Management**: Organize and communicate with vendors.
-- **Event Scheduling**: Plan the itinerary for the wedding day, including ceremonies, receptions, and other events.
-- **Notifications and Reminders**: Get reminders about upcoming tasks and due dates.
+🏰 Venue Listing – Browse venues with filters (budget & capacity).
 
-## Project Structure
+👥 Guest List Manager – Add, view, and manage your guest list with RSVP status.
 
-The project follows a standard Android application structure:
+💰 Budget Calculator – Estimate and track wedding expenses.
 
-- **app/**: Contains the main Android application code, including activities, fragments, and resources such as layouts and strings.
-- **build.gradle.kts**: The Gradle build file used to manage dependencies and configure the Android build process.
-- **gradle/**: Contains Gradle wrapper files for build automation.
-- **settings.gradle.kts**: Project-level settings for Gradle.
-- **local.properties**: Configuration file to manage SDK paths locally.
-- **MOS-innovative report.pdf**: A report detailing the app's features, development process, and technologies used.
+🔐 Authentication – Sign Up & Login with local storage.
 
-## Installation
+🎨 Modern UI – Material Design + wedding-themed colors, icons, and smooth animations.
 
-1. Clone this repository to your local machine:
-   ```bash
-   https://github.com/Lbp2563/Wedding--Planner-Mobile-App.git
+🛠 Tech Stack
 
-## Acknowledgments
+Language: Kotlin
 
-This project is adapted from the TensorFlow tutorials on transfer learning and fine-tuning.
+Framework: Android SDK
 
-## Author
+UI: Material Design, RecyclerView, ConstraintLayout, Lottie Animations
 
-[Kajal Lochab](https://github.com/kajallochab)
-[Lakshin Pathak](https://github.com/LakshinPathak)
+Architecture: Activity-based navigation with modular components
 
-## License
+🚀 Getting Started
 
-This project is licensed under the MIT License.
+Clone the repo:
+
+git clone https://github.com/your-username/wedding-planner-app.git
+
+
+Open in Android Studio
+
+Sync Gradle & Run on Emulator/Device
+
