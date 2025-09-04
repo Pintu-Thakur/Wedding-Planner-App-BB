@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Input for Guest Name -->
+    <EditText
+        android:id="@+id/etGuestName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter guest name"
+        android:inputType="textPersonName"
+        android:padding="12dp"/>
+
+    <!-- Spinner for RSVP status -->
+    <Spinner
+        android:id="@+id/spinnerRSVP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Button to add guest -->
+    <Button
+        android:id="@+id/btnAddGuest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Guest"
+        android:fontFamily="@font/playfairdisplay"
+        android:textStyle="bold"
+        android:layout_marginTop="12dp"/>
+
+    <!-- RecyclerView for guest list -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerGuests"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_weight="1"/>
+</LinearLayout>

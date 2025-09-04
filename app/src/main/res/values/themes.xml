@@ -1,9 +1,25 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.MOS_Innovative" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+    <!-- Base application theme -->
+    <style name="Theme.WeddingPlanner" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/wedding_pink</item>
+        <item name="colorPrimaryVariant">@color/wedding_burgundy</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+
+        <!-- Secondary color -->
+        <item name="colorSecondary">@color/wedding_gold</item>
+        <item name="colorSecondaryVariant">@color/wedding_green</item>
+        <item name="colorOnSecondary">@android:color/black</item>
+
+        <!-- Backgrounds -->
+        <item name="android:windowBackground">@color/wedding_ivory</item>
+        <item name="colorOnBackground">@color/wedding_ivory</item>
+
+        <!-- Text colors -->
+        <item name="android:textColorPrimary">@color/wedding_burgundy</item>
+        <item name="android:textColorSecondary">@color/wedding_gold</item>
+
     </style>
 
-    <style name="Theme.MOS_Innovative" parent="Base.Theme.MOS_Innovative" />
 </resources>

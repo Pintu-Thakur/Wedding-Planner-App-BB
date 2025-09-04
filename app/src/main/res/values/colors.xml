@@ -6,6 +6,13 @@
     <color name="royalblue">#4169E1</color>
     <color name="colorRed">#FF0000</color>
     <color name="ggreen">#4CAF50</color>
+    <color name="wedding_pink">#FFC0CB</color>
+    <color name="wedding_gold">#FFD700</color>
+    <color name="wedding_ivory">#FFFFF0</color>
+    <color name="wedding_burgundy">#800020</color>
+    <color name="wedding_green">#98FB98</color>
+    <color name="wedding_cream">#FFF8E7</color>
+
 </resources>
 
 

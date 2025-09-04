@@ -1,7 +1,12 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.MOS_Innovative" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+
+    <style name="Theme.WeddingPlanner" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/wedding_burgundy</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorSecondary">@color/wedding_gold</item>
+        <item name="android:windowBackground">@color/black</item>
+        <item name="colorOnBackground">@color/black</item>
+        <item name="android:textColorPrimary">@color/wedding_ivory</item>
     </style>
+
 </resources>

@@ -1,102 +1,136 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFE0">
+    android:background="@color/wedding_ivory">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="22dp"
-        android:background="#FFFFE0">
+        android:padding="22dp">
 
+        <!-- Title -->
         <TextView
             android:id="@+id/textViewCreator"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Wedding Planner App"
-            android:textColor="#c2185b"
-            android:textSize="24sp"
+            android:textColor="@color/wedding_burgundy"
+            android:textSize="28sp"
+            android:fontFamily="@font/great_vibes"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="10dp" />
 
+        <!-- Subtitle -->
         <TextView
             android:id="@+id/welcomeText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/textViewCreator"
             android:layout_centerHorizontal="true"
-            android:textSize="24sp"
-            android:textColor="#c2185b" />
-        <!-- App Image -->
+            android:text="Plan Your Perfect Day"
+            android:textSize="18sp"
+            android:textColor="@color/wedding_gold"
+            android:fontFamily="@font/dancing_script"
+            android:layout_marginTop="6dp" />
+
+        <!-- Logo -->
         <ImageView
             android:id="@+id/imageViewLogo"
-            android:layout_width="400dp"
-            android:layout_height="400dp"
-            android:src="@drawable/img123"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
             android:layout_below="@id/welcomeText"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="12dp" />
+            android:layout_marginTop="10dp"
+            android:src="@drawable/img123" />
 
-        <EditText
-            android:id="@+id/editTextBrideName"
+        <!-- Buttons -->
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonChecklist"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/imageViewLogo"
-            android:layout_marginTop="16dp"
-            android:hint="Enter Bride's Name"
-            android:padding="12dp"
-            android:inputType="textPersonName" />
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/playfairdisplay"
+            android:textStyle="bold"
+            android:text="Wedding Checklist"
+            android:textColor="@color/wedding_burgundy"
+            app:cornerRadius="20dp"
+            app:icon="@drawable/ic_checklist"
+            app:iconTint="@color/wedding_burgundy"
+            app:iconPadding="12dp"
+            app:iconGravity="start"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
 
-        <EditText
-            android:id="@+id/editTextGroomName"
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonVenueListing"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/editTextBrideName"
+            android:layout_below="@id/buttonChecklist"
             android:layout_marginTop="16dp"
-            android:hint="Enter Groom's Name"
-            android:padding="12dp"
-            android:inputType="textPersonName" />
+            android:text="Hotel / Venue Listing"
+            android:textColor="@color/wedding_burgundy"
+            app:cornerRadius="20dp"
+            app:icon="@drawable/ic_hotel_venue"
+            android:fontFamily="@font/playfairdisplay"
+            android:textStyle="bold"
+            app:iconTint="@color/wedding_burgundy"
+            app:iconPadding="12dp"
+            app:iconGravity="start"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
 
-        <Button
-            android:id="@+id/buttonPlanWedding"
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonGuestList"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/editTextGroomName"
+            android:layout_below="@id/buttonVenueListing"
             android:layout_marginTop="16dp"
-            android:text="Plan a Wedding" />
+            android:text="Guest List Management"
+            android:textColor="@color/wedding_burgundy"
+            app:cornerRadius="20dp"
+            android:fontFamily="@font/playfairdisplay"
+            android:textStyle="bold"
+            app:icon="@drawable/ic_people"
+            app:iconTint="@color/wedding_burgundy"
+            app:iconPadding="12dp"
+            app:iconGravity="start"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
 
-        <Button
-            android:id="@+id/buttonCatering"
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonBudget"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/buttonPlanWedding"
+            android:layout_below="@id/buttonGuestList"
             android:layout_marginTop="16dp"
-            android:text="Manage Catering" />
+            android:text="Budget Calculator"
+            android:textColor="@color/wedding_burgundy"
+            app:cornerRadius="20dp"
+            app:icon="@drawable/ic_attach_money"
+            android:fontFamily="@font/playfairdisplay"
+            android:textStyle="bold"
+            app:iconTint="@color/wedding_burgundy"
+            app:iconPadding="12dp"
+            app:iconGravity="start"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
 
-        <Button
-            android:id="@+id/buttonWeddingTheme"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/buttonCatering"
-            android:layout_marginTop="16dp"
-            android:text="Choose Wedding Theme" />
-
-        <Button
-            android:id="@+id/buttonInvitations"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/buttonWeddingTheme"
-            android:layout_marginTop="16dp"
-            android:text="Send Invitations" />
-
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/buttonExit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/buttonInvitations"
+            android:layout_below="@id/buttonBudget"
             android:layout_marginTop="16dp"
-            android:text="Exit" />
+            android:text="Exit"
+            android:fontFamily="@font/playfairdisplay"
+            android:textStyle="bold"
+            android:textColor="@color/wedding_burgundy"
+            app:cornerRadius="20dp"
+            app:icon="@drawable/ic_exit_to_app"
+            app:iconTint="@color/wedding_burgundy"
+            app:iconPadding="12dp"
+            app:iconGravity="start"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
 
     </RelativeLayout>
 </ScrollView>
